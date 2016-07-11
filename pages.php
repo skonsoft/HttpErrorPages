@@ -23,8 +23,8 @@ return array (
 		
 		// internal server error
 		'500' => array (
-				'title' => 'Webservice currently unavailable',
-				'message' => "An unexpected condition was encountered.\nOur service team has been dispatched to bring it back online." 
+				'title' => 'Le site est actuellement hors ligne',
+				'message' => "Le serveur a rencontré une erreur interne. Nos équipes ont été mobilisé pour remettre le site en ligne dès que possible." 
 		),
 		
 		// unknown http method
@@ -35,14 +35,14 @@ return array (
 		
 		// http proxy forward error
 		'502' => array (
-				'title' => 'Webservice currently unavailable',
-				'message' => "We've got some trouble with our backend upstream cluster.\nOur service team has been dispatched to bring it back online."
+				'title' => 'Service temporairement indisponible',
+				'message' => "Le serveur reçoit un nombre très important de requêtes. Le site sera de nouveau disponible rapidement. Veuillez réessayer un peu plus tard."
 		),
 		
 		// webserver service error
 		'503' => array (
-				'title' => 'Webservice currently unavailable',
-				'message' => "We've got some trouble with our backend upstream cluster.\nOur service team has been dispatched to bring it back online."
+				'title' => 'Service temporairement indisponible',
+				'message' => "Le serveur reçoit un nombre très important de requêtes. Le site sera de nouveau disponible rapidement. Veuillez réessayer un peu plus tard."
 		),
 		
 		// webserver origin error

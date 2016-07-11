@@ -4,7 +4,7 @@
  */
 
 $config = array(
-	'footer' => 'Technical Contact: <a href="mailto:x@example.com">x@example.com</a>'
+	'footer' => 'Contact technique: <a href="mailto:contact@skonsoft.com">contact@skonsoft.com</a>'
 );
 
 // load pages
@@ -27,5 +27,5 @@ foreach ($pages as $code => $page){
 	$errorpage = ob_get_clean();
 	
 	// store template
-	file_put_contents('Build/HTTP'.$v_code.'.html', $errorpage);
+	file_put_contents('Build/'.$v_code.'.html', $errorpage);
 }
